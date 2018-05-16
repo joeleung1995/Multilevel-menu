@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+.wrapper {
+	margin: 100px auto;
+	display: block;
+	width: 450px;
+	height: 30px;
+	border: 1px solid #424242;
+	position: relative;
+	cursor: pointer;
+}
+.firstMenu {
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	float: left;
+}
+.secMenu_box{
+	position: absolute;
+	font-size: 5px;
+	font-weight: normal;
+	text-align: left;
+	background-color: #eee;
+	padding-left: 10px;
+	width: 140px;
+	line-height: 20px;
+}
+.secMenu_box_1 {
+	top: 31px;
+	left: 1px;
+	display: none;
+}
+.secMenu_box_2 {
+	top: 31px;
+	left: 151px;
+	display: none;
+}
+.secMenu_box_3 {
+	top: 31px;
+	left: 301px;
+	display: none;
+}
+.triangle_box {
+	position: relative;
+}
+.triangle {
+	height: 12px;
+	width: 12px;
+	position: absolute;
+	right: 5px;
+	top: 4px;
+}
+.thirdMenu {
+	display: block;
+	width: 110px;
+	padding-left: 10px;
+	position: absolute;
+	left: 140px;
+	top: 0;
+	background-color: #eee;
+}
